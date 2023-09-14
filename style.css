@@ -1,0 +1,56 @@
+body{
+    background-color: lightgreen;
+}
+    
+/* 
+ul{
+    display: flex;
+}
+ul li {
+    list-style: none;
+    margin: 5px;
+ }
+ ul li a:hover{
+    background-color:blue;
+    border-radius: 3px;
+ }
+ a{
+   font-size: 20px;
+    text-decoration: none;
+    color: black;
+ }  */
+
+
+
+ nav{
+    background-color: aquamarine;
+   
+}
+nav > ul {
+   display:flex;
+}
+nav  li{
+    list-style: none;
+    margin: 5px;
+    padding: 15px;
+}
+nav li > :hover{
+    background-color: gray;
+}
+nav li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}  
+/* 
+/* nested dropdown */
+ /*nav li .dropdown{
+    display: none;
+    position: absolute;
+   background-color: aquamarine;
+    padding: 5px;
+}
+nav li:hover > .dropdown{
+    display: block;
+}  */
